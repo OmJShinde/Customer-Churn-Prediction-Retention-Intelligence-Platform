@@ -55,9 +55,9 @@ graph TD
     UI --> API[FastAPI Backend]
     
     subgraph "Core Intelligence Engine"
-        API --> ML[ML Prediction Engine]
-        API --> XAI[Explainability Engine (SHAP)]
-        API --> GenAI[GenAI Retention Engine]
+        API --> ML["ML Prediction Engine"]
+        API --> XAI["Explainability Engine (SHAP)"]
+        API --> GenAI["GenAI Retention Engine"]
     end
     
     ML --> Model[XGBoost Model]
