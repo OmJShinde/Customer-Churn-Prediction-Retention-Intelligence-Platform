@@ -1,9 +1,0 @@
-2023-10-27 10:00:00,123 | INFO | churn_app | Dataset loaded successfully with shape (100, 21)
-2023-10-27 10:00:00,456 | INFO | churn_app | Starting model training pipeline...
-2023-10-27 10:00:00,789 | INFO | churn_app | Categorical columns: ['gender', 'Partner', ...]
-2023-10-27 10:00:01,000 | INFO | churn_app | Training XGBoost model...
-2023-10-27 10:00:02,500 | INFO | churn_app | Evaluating model...
-2023-10-27 10:00:02,600 | INFO | churn_app | ROC-AUC Prediction: 0.8543
-2023-10-27 10:00:02,700 | INFO | churn_app | Saving model to models/churn_model.pkl
-2023-10-27 10:05:00,123 | INFO | churn_app | Received prediction request
-2023-10-27 10:05:00,234 | INFO | churn_app | Prediction result: {'churn_prediction': 1, 'churn_probability': 0.82}
