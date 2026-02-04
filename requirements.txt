@@ -1,0 +1,17 @@
+python-dotenv
+fastapi
+uvicorn
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+pydantic
+openai
+google-generativeai
+joblib
+matplotlib
+seaborn
+requests
+plotly

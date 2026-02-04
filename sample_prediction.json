@@ -1,0 +1,40 @@
+{
+  "input": {
+    "gender": "Female",
+    "SeniorCitizen": 0,
+    "Partner": "No",
+    "Dependents": "No",
+    "tenure": 5,
+    "PhoneService": "Yes",
+    "MultipleLines": "No",
+    "InternetService": "Fiber optic",
+    "OnlineSecurity": "No",
+    "OnlineBackup": "No",
+    "DeviceProtection": "No",
+    "TechSupport": "No",
+    "StreamingTV": "Yes",
+    "StreamingMovies": "Yes",
+    "Contract": "Month-to-month",
+    "PaperlessBilling": "Yes",
+    "PaymentMethod": "Electronic check",
+    "MonthlyCharges": 89.5,
+    "TotalCharges": 447.5
+  },
+  "output": {
+    "churn_prediction": 1,
+    "churn_probability": 0.82,
+    "risk_factors": [
+      "Contract (Month-to-month)",
+      "InternetService (Fiber optic)",
+      "Tenure (Low)"
+    ],
+    "retention_strategy": {
+      "strategy": "High Risk Save",
+      "action_items": [
+        "20% Discount for 6 months commitment",
+        "Priority support access"
+      ],
+      "email_draft": "We really value your business..."
+    }
+  }
+}
